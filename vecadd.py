@@ -1,6 +1,6 @@
 import numpy as np
 from multiprocessing import Pool
-
+#small modification
 def parallel_dot_product(args):
     a, b, start, end = args
     return np.sum(a[start:end] * b[start:end])
